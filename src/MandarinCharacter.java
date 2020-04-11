@@ -4,19 +4,19 @@ class MandarinCharacter {
     private int strokes;
     private String alternativeCharacters;
     private String fullPinyin;
-    private String rawpinyin;
-    private String intpinyin;
+    private String rawPinyin;
+    private String intPinyin;
     private int tone;
     private String english;
     private String german;
 
-    MandarinCharacter(String mainCharacter, int strokes, String alternativeCharacters, String fullPinyin, String rawpinyin, String intpinyin, int tone, String english, String german) {
+    MandarinCharacter(String mainCharacter, int strokes, String alternativeCharacters, String fullPinyin, String rawPinyin, String intPinyin, int tone, String english, String german) {
         this.mainCharacter = mainCharacter;
         this.strokes = strokes;
         this.alternativeCharacters = alternativeCharacters;
         this.fullPinyin = fullPinyin;
-        this.rawpinyin = rawpinyin;
-        this.intpinyin = intpinyin;
+        this.rawPinyin = rawPinyin;
+        this.intPinyin = intPinyin;
         this.tone = tone;
         this.english = english;
         this.german = german;
@@ -39,12 +39,12 @@ class MandarinCharacter {
         return fullPinyin;
     }
 
-    String getRawpinyin() {
-        return rawpinyin;
+    String getRawPinyin() {
+        return rawPinyin;
     }
 
-    String getIntpinyin() {
-        return intpinyin;
+    String getIntPinyin() {
+        return intPinyin;
     }
 
     int getTone() {
