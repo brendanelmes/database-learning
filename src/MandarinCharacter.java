@@ -27,7 +27,7 @@ class MandarinCharacter {
         return mainCharacter;
     }
 
-    public int getStrokes() {
+    int getStrokes() {
         return strokes;
     }
 
@@ -35,27 +35,27 @@ class MandarinCharacter {
         return alternativeCharacters;
     }
 
-    public String getFullPinyin() {
+    String getFullPinyin() {
         return fullPinyin;
     }
 
-    public String getRawpinyin() {
+    String getRawpinyin() {
         return rawpinyin;
     }
 
-    public String getIntpinyin() {
+    String getIntpinyin() {
         return intpinyin;
     }
 
-    public int getTone() {
+    int getTone() {
         return tone;
     }
 
-    public String getEnglish() {
+    String getEnglish() {
         return english;
     }
 
-    public String getGerman() {
+    String getGerman() {
         return german;
     }
 }
