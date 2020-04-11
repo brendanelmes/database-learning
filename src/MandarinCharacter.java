@@ -31,7 +31,7 @@ class MandarinCharacter {
         return strokes;
     }
 
-    public String getAlternativeCharacters() {
+    String getAlternativeCharacters() {
         return alternativeCharacters;
     }
 
